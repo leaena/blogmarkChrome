@@ -1,0 +1,26 @@
+{
+  "name": "BLOGmark",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Save a site, blog a site. For budding bloggers and journalists.",
+  "homepage_url": "http://127.0.0.1:3000/",
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "content_scripts": [{ 
+    "matches": ["http://*/*"],
+    "css": ["bootstrap.css"],
+    "js": ["jquery.js", "contenScript.js"]
+    }],
+  "browser_action": {
+    "default_icon": "icon19.png",
+    "default_title": "Blogmark a site",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", 
+    "http://*/*", 
+    "https://*/*"
+  ]
+}
