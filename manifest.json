@@ -11,7 +11,7 @@
   "content_scripts": [{ 
     "matches": ["http://*/*"],
     "css": ["bootstrap.css"],
-    "js": ["jquery.js", "contenScript.js"]
+    "js": ["jquery.js", "contentScript.js"]
     }],
   "browser_action": {
     "default_icon": "icon19.png",
