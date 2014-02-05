@@ -1,7 +1,7 @@
 blogmarkChrome
 ==============
 
-Chrome extension for my (blogmark app)[http://github.com/leaena/blogmark).
+Chrome extension for my [blogmark app](http://github.com/leaena/blogmark).
 
 ##TODO:
 
